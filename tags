@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOOST_AUTO_TEST_CASE	unit_tests/boost_unit_test.cpp	/^BOOST_AUTO_TEST_CASE(\/* <<<string_test_name>>>*\/) {$/;"	f
+BOOST_TEST_MAIN	unit_tests/boost_unit_test.cpp	3;"	d	file:
+BOOST_TEST_MODULE	unit_tests/boost_unit_test.cpp	2;"	d	file:
+BRANCH	Makefile	/^BRANCH =$/;"	m
+CC	Makefile	/^CC = g++$/;"	m
+CPPDIR	Makefile	/^CPPDIR = src\/$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = -I$(INCDIR)$/;"	m
+CPPSET	Makefile	/^CPPSET := $(wildcard $(CPPDIR)*$(EXT))$/;"	m
+DEPDIR	Makefile	/^DEPDIR = dep\/$/;"	m
+DEPSET	Makefile	/^DEPSET := $(OBJSET:$(OBJDIR)%.o=$(DEPDIR)%.d)$/;"	m
+EXECUTABLE	Makefile	/^EXECUTABLE=exe$/;"	m
+EXT	Makefile	/^EXT =.cpp$/;"	m
+GDBLOG	Makefile	/^GDBLOG = gdb.cxx$/;"	m
+GITDIR	Makefile	/^GITDIR = git\/$/;"	m
+INCDIR	Makefile	/^INCDIR = include\/$/;"	m
+INCSET	Makefile	/^INCSET := $(wildcard $(INCDIR)*.h)$/;"	m
+INPUTDIR	Makefile	/^INPUTDIR = $(CPPDIR)input_files\/$/;"	m
+INPUTSET	Makefile	/^INPUTSET := $(wildcard $(INPUTDIR))$/;"	m
+LL	Makefile	/^LL = -l message$/;"	m
+LOGDIR	Makefile	/^LOGDIR = logs\/$/;"	m
+MAIN_H_INCLUDE_2BE60198_E644_4E79_A302_167D94C7FB3A	include/main.h	4;"	d
+MSG	Makefile	/^MSG = updated$/;"	m
+OBJDIR	Makefile	/^OBJDIR = $(CPPDIR)obj\/$/;"	m
+OBJSET	Makefile	/^OBJSET := $(CPPSET:$(CPPDIR)%$(EXT)=$(OBJDIR)%.o)$/;"	m
+PROJECT	Makefile	/^PROJECT=$(_PROJECT:_%=% )$/;"	m
+STYLE	Makefile	/^STYLE = Google$/;"	m
+TEST_EXES_	Makefile	/^TEST_EXES_=$/;"	m
+TSTARCSET	Makefile	/^TSTARCSET := $(TSTSET:$(TSTDIR)%$(EXT)=$(TSTOBJDIR)%.a)$/;"	m
+TSTCPPSET	Makefile	/^TSTCPPSET = $(filter-out $(shell grep -rl 'main()'),$(CPPSET))$/;"	m
+TSTDEPDIR	Makefile	/^TSTDEPDIR = $(TSTDIR)dep\/$/;"	m
+TSTDIR	Makefile	/^TSTDIR = unit_tests\/$/;"	m
+TSTOBJDIR	Makefile	/^TSTOBJDIR = $(TSTDIR)obj\/$/;"	m
+TSTOBJSET	Makefile	/^TSTOBJSET := $(TSTSET:$(TSTDIR)%$(EXT)=$(TSTOBJDIR)%.o)$/;"	m
+TSTSET	Makefile	/^TSTSET = $(TSTSET_)$/;"	m
+TSTSET_	Makefile	/^TSTSET_ := $(wildcard $(TSTDIR)*$(EXT))$/;"	m
+YCM_GEN_DIR	Makefile	/^YCM_GEN_DIR = ~\/.vim\/bundle\/YCM-Generator\/$/;"	m
+_PROJECT	Makefile	/^_PROJECT=$(subst \/,_,$(subst $(HOME),,$(PWD)))$/;"	m
+main	src/main.cpp	/^int main(){$/;"	f
